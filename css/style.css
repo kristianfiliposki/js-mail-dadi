@@ -1,3 +1,7 @@
+*{
+    font-family: sans-serif;
+}
+
 .container,.box{
     display: flex;
     justify-content: center;
@@ -26,7 +30,7 @@
     
 }
 
-label,#output{
+h2,#output{
     margin: 5px;
     color: white;
 }
