@@ -22,7 +22,7 @@ btn.addEventListener("click",function(){
         for (let i =0 ; i <= mails.length; i++) {
             let Elementmail=mails[i];
             
-            if(emailIns==Elementmail){
+            if(emailIns=Elementmail){
                 output.innerHTML=("la tua e-mail già esiste!");
                 break;
             }
